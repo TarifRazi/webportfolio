@@ -96,6 +96,10 @@ nav a {
 }
 
 /* main sec style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about sec style */
 .about{
@@ -103,4 +107,12 @@ nav a {
     background: #FFF8F3;
     border-radius: 10px;
     margin: 130px 0;
+}
+
+.about-info-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
